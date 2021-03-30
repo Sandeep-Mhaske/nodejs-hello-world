@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /opt/node-apps/
     destination: /opt/node-apps/
 hooks:
   BeforeInstall:
