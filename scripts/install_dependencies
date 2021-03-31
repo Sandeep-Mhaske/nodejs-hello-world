@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install nodejs npm -y
+#apt-get install nodejs npm -y
 rm -rf /opt/node-apps
 mkdir /opt/node-apps || exit 0
 
