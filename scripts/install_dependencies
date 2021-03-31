@@ -1,7 +1,8 @@
 #!/bin/bash
 #apt-get install nodejs npm -y
-cd /opt/node-apps/
+cd /opt
 pm2 stop all
+pm2 delete all
 rm -rf /opt/node-apps
 mkdir /opt/node-apps || exit 0
 
