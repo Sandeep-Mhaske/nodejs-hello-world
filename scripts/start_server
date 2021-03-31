@@ -2,5 +2,6 @@
 cd /opt/node-apps
 unzip -qo  code.zip
 #npm install
-npm start &
+#npm start &
+pm2 start index.js
 
